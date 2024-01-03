@@ -9,3 +9,4 @@ CREATE TABLE blogs (
 insert into blogs (author, url, title) values ('Ariful Islam', 'www.ariful.org', 'Relational databases rule the world');
 insert into blogs (author, url, title, likes) values ('Juuso Rantanen', 'www.juuso.org', 'MongoDB is webscale', 3);
 
+select * from blogs;
